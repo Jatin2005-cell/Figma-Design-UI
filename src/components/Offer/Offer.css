@@ -97,6 +97,21 @@ justify-content:flex-start;
 font-size:30px;
 
 }
+.offer-row{
+    transition:.35s;
+}
+
+.offer-row:hover{
+    background:#fafafa;
+    transform:translateX(12px);
+}
+.offer-arrow{
+    transition:.35s;
+}
+
+.offer-row:hover .offer-arrow{
+    transform:translateX(8px);
+}
 
 }
 .offer{

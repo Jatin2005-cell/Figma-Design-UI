@@ -189,3 +189,38 @@
     width:45px;
     height:auto;
 }
+.hero-title{
+    animation: fadeUp .9s ease forwards;
+}
+
+.hero-text{
+    opacity:0;
+    animation: fadeUp .9s ease .25s forwards;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.avatar{
+    animation: float 4s ease-in-out infinite;
+}
+
+.avatar:nth-child(even){
+    animation-delay:1s;
+}
+
+@keyframes float{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+}

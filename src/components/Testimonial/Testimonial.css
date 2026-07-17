@@ -204,3 +204,10 @@
 }
 
 }
+.avatar{
+    transition:.3s;
+}
+
+.avatar:hover{
+    transform:scale(1.12);
+}

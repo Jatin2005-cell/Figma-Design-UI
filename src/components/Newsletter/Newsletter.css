@@ -11,6 +11,13 @@
     position:relative;
     z-index:2;
 }
+.newsletter-content button{
+    transition:.35s;
+}
+
+.newsletter-content button:hover{
+    transform:scale(1.08);
+}
 
 /* ========================= */
 /* Decorative SVG */
