@@ -1,6 +1,6 @@
 import "./Hero.css";
-import img1 from "../../assets/svg/vector 2510.png";
-import img2 from "../../assets/svg/vector 2511.png";
+import img1 from "../../assets/svg/Vector 2510.png";
+import img2 from "../../assets/svg/Vector 2511.png";
 
 import person1 from "../../assets/images/person1.png";
 import person2 from "../../assets/images/person2.png";
