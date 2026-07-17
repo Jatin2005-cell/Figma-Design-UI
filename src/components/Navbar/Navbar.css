@@ -1,0 +1,48 @@
+.navbar{
+    width:100%;
+    padding:28px 0;
+}
+
+.navbar-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:-1px;
+}
+
+.nav-links{
+    display:flex;
+    gap:40px;
+}
+
+.nav-links a{
+    color:#111;
+    font-size:15px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#7acb8f;
+}
+
+.menu-btn{
+    background:none;
+    font-size:30px;
+}
+
+@media(max-width:768px){
+
+.nav-links{
+    display:none;
+}
+
+.logo{
+    font-size:24px;
+}
+
+}

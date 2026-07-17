@@ -1,0 +1,124 @@
+.offer{
+    padding:120px 0;
+}
+
+.offer-heading{
+    font-size:64px;
+    font-weight:500;
+    line-height:1.05;
+    margin-bottom:70px;
+}
+
+.offer-heading span{
+    background:#D9F3D1;
+    border-radius:30px;
+    padding:0 12px;
+}
+
+.offer-list{
+    border-top:1px solid #dcdcdc;
+}
+
+.offer-row{
+
+    display:grid;
+
+    grid-template-columns:220px 1fr 60px;
+
+    align-items:center;
+
+    padding:30px 0;
+
+    border-bottom:1px solid #dcdcdc;
+
+    gap:40px;
+
+    transition:.3s;
+
+}
+
+.offer-row:hover{
+
+    background:#fafafa;
+
+}
+
+.offer-small{
+
+    font-size:14px;
+
+    color:#777;
+
+    line-height:1.7;
+
+}
+
+.offer-title{
+
+    font-size:42px;
+
+    font-weight:500;
+
+}
+
+.offer-arrow{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    font-size:30px;
+
+}
+
+@media(max-width:900px){
+
+.offer-heading{
+    position: relative;
+    z-index: 5;
+}
+
+.offer-row{
+
+grid-template-columns:1fr;
+
+gap:15px;
+
+}
+
+.offer-arrow{
+
+justify-content:flex-start;
+
+}
+
+.offer-title{
+
+font-size:30px;
+
+}
+
+}
+.offer{
+    position:relative;
+    overflow:hidden;
+}
+
+.offer-wave{
+    position: absolute;
+
+    top: -260px;      /* thoda upar */
+    right: -80px;    /* aur right le jao */
+
+    width: 800px;     /* zarurat ho to 800-900px */
+
+    z-index: 0;
+    pointer-events: none;
+}
+
+
+
+.offer .container{
+    position:relative;
+    z-index:2;
+}

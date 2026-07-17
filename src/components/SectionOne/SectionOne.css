@@ -1,0 +1,102 @@
+.section-one{
+    padding:120px 0;
+}
+
+.section-one-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:80px;
+
+}
+
+.section-one-content h2{
+
+    font-size:56px;
+
+    line-height:1.05;
+
+    font-weight:500;
+
+    margin-bottom:25px;
+
+}
+
+.section-one-content p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+    max-width:420px;
+
+}
+
+.section-one-content a{
+
+    color:#111;
+
+    text-decoration:none;
+
+    border-bottom:2px solid #111;
+
+    padding-bottom:4px;
+
+}
+
+.section-one-image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meeting-img{
+    width:430px;
+    height:430px;
+    border-radius:50%;
+    object-fit:cover;
+    position:relative;
+    z-index:2;
+}
+
+.pink-shape{
+    position:absolute;
+    width:120px;
+    top:40px;
+    right:10px;
+
+    z-index:1;      /* image ke niche */
+
+    transform:rotate(12deg);
+}
+@media(max-width:900px){
+
+.section-one-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.section-one-content p{
+
+margin:auto;
+
+margin-bottom:25px;
+
+}
+
+}
+.green-bg{
+    background:#DDF2D5;
+    padding:2px 12px;
+    border-radius:30px;
+}
